@@ -17,7 +17,8 @@ public class hw23 {
         System.out.println(100 * a + 10 * b + c);
     }
 
-    private static int readInputInt() {
+    // Провіряємо чи введений символ - цифра
+    public static int readInputInt() {
         Scanner s = new Scanner(System.in);
         int result;
         while (true) {
